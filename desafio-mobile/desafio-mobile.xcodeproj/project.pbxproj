@@ -7,22 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5512514A1E47B3F10059E121 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551251491E47B3F10059E121 /* CartViewController.swift */; };
+		5512514D1E47B4A60059E121 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512514C1E47B4A60059E121 /* CartTableViewCell.swift */; };
 		559ED8961E37D42800709CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8951E37D42800709CA9 /* AppDelegate.swift */; };
 		559ED8B11E37D55400709CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559ED8B01E37D55400709CA9 /* Assets.xcassets */; };
-		559ED8B41E37D56B00709CA9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 559ED8B31E37D56B00709CA9 /* Info.plist */; };
 		559ED8B71E37D57F00709CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559ED8B51E37D57F00709CA9 /* LaunchScreen.storyboard */; };
 		559ED8B81E37D57F00709CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559ED8B61E37D57F00709CA9 /* Main.storyboard */; };
+		559ED8BC1E37D93C00709CA9 /* ProductEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8BB1E37D93C00709CA9 /* ProductEntity.swift */; };
+		559ED8BE1E37D9EC00709CA9 /* DesafioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8BD1E37D9EC00709CA9 /* DesafioAPI.swift */; };
+		559ED8C11E37DB2100709CA9 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8C01E37DB2100709CA9 /* ProductService.swift */; };
+		559ED8C41E37DC3E00709CA9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8C31E37DC3E00709CA9 /* Result.swift */; };
+		559ED8CC1E38013200709CA9 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8CB1E38013200709CA9 /* ProductsViewController.swift */; };
+		559ED8CF1E38016700709CA9 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8CE1E38016700709CA9 /* ProductCollectionViewCell.swift */; };
+		559ED8D21E3801CF00709CA9 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8D11E3801CF00709CA9 /* CellProtocol.swift */; };
+		55FA052C1E3FEA48004C3978 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA052B1E3FEA48004C3978 /* ProductsViewModel.swift */; };
+		55FA052E1E3FEA58004C3978 /* ControllersProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA052D1E3FEA58004C3978 /* ControllersProtocol.swift */; };
+		55FA05331E3FF3C9004C3978 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA05321E3FF3C9004C3978 /* UIViewExtension.swift */; };
 		7C112DCCF189A7339E120C20 /* Pods_desafio_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F9DFFA5CA7D9314B268DFA /* Pods_desafio_mobile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19A0524714316F926ABD9C21 /* Pods-desafio-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-desafio-mobile/Pods-desafio-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		551251491E47B3F10059E121 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5512514C1E47B4A60059E121 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 		559ED8921E37D42800709CA9 /* desafio-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		559ED8951E37D42800709CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559ED8B01E37D55400709CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559ED8B31E37D56B00709CA9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559ED8B51E37D57F00709CA9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559ED8B61E37D57F00709CA9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		559ED8BB1E37D93C00709CA9 /* ProductEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductEntity.swift; sourceTree = "<group>"; };
+		559ED8BD1E37D9EC00709CA9 /* DesafioAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesafioAPI.swift; sourceTree = "<group>"; };
+		559ED8C01E37DB2100709CA9 /* ProductService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		559ED8C31E37DC3E00709CA9 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		559ED8CB1E38013200709CA9 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		559ED8CE1E38016700709CA9 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		559ED8D11E3801CF00709CA9 /* CellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
+		55FA052B1E3FEA48004C3978 /* ProductsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		55FA052D1E3FEA58004C3978 /* ControllersProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllersProtocol.swift; sourceTree = "<group>"; };
+		55FA05321E3FF3C9004C3978 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B7F9DFFA5CA7D9314B268DFA /* Pods_desafio_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81D15E090A8B7C883D735C5 /* Pods-desafio-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-desafio-mobile/Pods-desafio-mobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551251481E47B3DA0059E121 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				5512514B1E47B4920059E121 /* View */,
+				551251491E47B3F10059E121 /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		5512514B1E47B4920059E121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5512514C1E47B4A60059E121 /* CartTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		559ED8891E37D42800709CA9 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +115,8 @@
 		559ED8A71E37D48500709CA9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				551251481E47B3DA0059E121 /* Cart */,
+				559ED8CA1E38011D00709CA9 /* Products */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -100,6 +142,7 @@
 		559ED8AA1E37D4A200709CA9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				559ED8B91E37D92700709CA9 /* Product */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +150,9 @@
 		559ED8AB1E37D4A700709CA9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				559ED8C21E37DC2700709CA9 /* Base */,
+				559ED8BF1E37DB0900709CA9 /* ProductService */,
+				559ED8BD1E37D9EC00709CA9 /* DesafioAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -121,6 +167,8 @@
 		559ED8AD1E37D4FB00709CA9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				55FA052F1E3FF395004C3978 /* Extensions */,
+				559ED8D01E3801BD00709CA9 /* Protocols */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -147,6 +195,66 @@
 			children = (
 			);
 			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		559ED8B91E37D92700709CA9 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				559ED8BB1E37D93C00709CA9 /* ProductEntity.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		559ED8BF1E37DB0900709CA9 /* ProductService */ = {
+			isa = PBXGroup;
+			children = (
+				559ED8C01E37DB2100709CA9 /* ProductService.swift */,
+			);
+			path = ProductService;
+			sourceTree = "<group>";
+		};
+		559ED8C21E37DC2700709CA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				559ED8C31E37DC3E00709CA9 /* Result.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		559ED8CA1E38011D00709CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559ED8CD1E38015400709CA9 /* Views */,
+				559ED8CB1E38013200709CA9 /* ProductsViewController.swift */,
+				55FA052B1E3FEA48004C3978 /* ProductsViewModel.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		559ED8CD1E38015400709CA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				559ED8CE1E38016700709CA9 /* ProductCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		559ED8D01E3801BD00709CA9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				559ED8D11E3801CF00709CA9 /* CellProtocol.swift */,
+				55FA052D1E3FEA58004C3978 /* ControllersProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		55FA052F1E3FF395004C3978 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55FA05321E3FF3C9004C3978 /* UIViewExtension.swift */,
+			);
+			name = Extensions;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		AF1822A554CA824AE7D00972 /* Frameworks */ = {
@@ -230,7 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				559ED8B71E37D57F00709CA9 /* LaunchScreen.storyboard in Resources */,
-				559ED8B41E37D56B00709CA9 /* Info.plist in Resources */,
 				559ED8B11E37D55400709CA9 /* Assets.xcassets in Resources */,
 				559ED8B81E37D57F00709CA9 /* Main.storyboard in Resources */,
 			);
@@ -291,7 +398,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FA052C1E3FEA48004C3978 /* ProductsViewModel.swift in Sources */,
+				559ED8CC1E38013200709CA9 /* ProductsViewController.swift in Sources */,
+				55FA05331E3FF3C9004C3978 /* UIViewExtension.swift in Sources */,
+				559ED8BE1E37D9EC00709CA9 /* DesafioAPI.swift in Sources */,
+				5512514A1E47B3F10059E121 /* CartViewController.swift in Sources */,
+				559ED8CF1E38016700709CA9 /* ProductCollectionViewCell.swift in Sources */,
+				559ED8C41E37DC3E00709CA9 /* Result.swift in Sources */,
+				55FA052E1E3FEA58004C3978 /* ControllersProtocol.swift in Sources */,
+				559ED8C11E37DB2100709CA9 /* ProductService.swift in Sources */,
+				5512514D1E47B4A60059E121 /* CartTableViewCell.swift in Sources */,
+				559ED8BC1E37D93C00709CA9 /* ProductEntity.swift in Sources */,
 				559ED8961E37D42800709CA9 /* AppDelegate.swift in Sources */,
+				559ED8D21E3801CF00709CA9 /* CellProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +559,7 @@
 				559ED8A61E37D42800709CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
