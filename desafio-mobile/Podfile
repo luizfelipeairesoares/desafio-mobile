@@ -10,6 +10,7 @@ target 'desafio-mobile' do
   pod 'Moya-ModelMapper', '~> 4.1'
   pod 'PKHUD', '~> 4.2'
   pod 'Kingfisher', '~> 3.3'
+  pod 'RealmSwift', '~> 2.4'
 
 end
 

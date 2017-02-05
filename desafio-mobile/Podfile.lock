@@ -13,6 +13,11 @@ PODS:
     - Alamofire (~> 4.2.0)
     - Result (~> 3.1.0)
   - PKHUD (4.2.0)
+  - Realm (2.4.2):
+    - Realm/Headers (= 2.4.2)
+  - Realm/Headers (2.4.2)
+  - RealmSwift (2.4.2):
+    - Realm (= 2.4.2)
   - Result (3.1.0)
 
 DEPENDENCIES:
@@ -20,6 +25,7 @@ DEPENDENCIES:
   - Moya (~> 8.0)
   - Moya-ModelMapper (~> 4.1)
   - PKHUD (~> 4.2)
+  - RealmSwift (~> 2.4)
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
@@ -28,8 +34,10 @@ SPEC CHECKSUMS:
   Moya: f2e10a04fcb27fec154cb2afa4e536e8b46dac04
   Moya-ModelMapper: 7084396138e6f9359881db654ee6a4d826a64f14
   PKHUD: 48af884cf00c2213b0313b739d914e6cab1c0f5e
+  Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
+  RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
 
-PODFILE CHECKSUM: 363e05b23eaf7f4129da6291c947c75576ff9388
+PODFILE CHECKSUM: db06672637fbaf337515fac01ea2d61ca87bb603
 
 COCOAPODS: 1.1.1
