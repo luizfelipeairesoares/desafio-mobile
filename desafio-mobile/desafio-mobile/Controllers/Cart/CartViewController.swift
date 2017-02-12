@@ -31,6 +31,8 @@ class CartViewController: UIViewController {
         
         self.title = "Carrinho"
         
+        self.viewmodel?.assignController(controller: self)
+        
         if self.viewmodel?.cart.count == 0 {
             self.vwEmpty.isHidden = false
         } else {
@@ -45,7 +47,6 @@ class CartViewController: UIViewController {
     
     internal func assignViewModel(viewmodel: ProductsViewModel) {
         self.viewmodel = viewmodel
-        self.viewmodel?.assignController(controller: self)
     }
     
     // MARK: - Button Actions
@@ -58,6 +59,12 @@ class CartViewController: UIViewController {
     @IBAction func btnRemoveAllTouched(_ sender: UIBarButtonItem) {
         self.viewmodel?.cart.removeAll()
         self.tblView.reloadData()
+    }
+    
+    @IBAction func btnBuyTouched(_ sender: UIButton) {
+        let card = self.storyboard?.instantiateViewController(withIdentifier: CardViewController.storyboardID()) as! CardViewController
+        card.assignViewModel(viewmodel: self.viewmodel)
+        self.present(card, animated: true, completion: nil)
     }
 
     /*
@@ -74,7 +81,9 @@ class CartViewController: UIViewController {
 
 extension CartViewController: ProductProtocol {
     
-    func reloadTable() { }
+    func reloadTable() {
+        self.tblView.reloadData()
+    }
     
 }
 
@@ -121,6 +130,9 @@ extension CartViewController: UITableViewDelegate {
             let btn = UIButton(frame: CGRect(x: ((vw.frame.size.width/2)-100), y: 28, width: 200, height: 44))
             btn.setTitle("FINALIZAR COMPRA", for: .normal)
             btn.backgroundColor = UIColor(colorLiteralRed: 33/255, green: 192/255, blue: 100/255, alpha: 1.0)
+            btn.addTarget(self, action: #selector(self.btnBuyTouched(_:)), for: .touchUpInside)
+            btn.layer.cornerRadius = 5.0
+            btn.layer.masksToBounds = true
             vw.addSubview(btn)
             return vw
         }

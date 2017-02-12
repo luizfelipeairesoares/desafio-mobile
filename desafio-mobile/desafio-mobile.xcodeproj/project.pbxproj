@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5512514A1E47B3F10059E121 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551251491E47B3F10059E121 /* CartViewController.swift */; };
 		5512514D1E47B4A60059E121 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512514C1E47B4A60059E121 /* CartTableViewCell.swift */; };
+		5512514F1E47C0560059E121 /* ProductRealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512514E1E47C0560059E121 /* ProductRealmObject.swift */; };
+		551251521E47C40C0059E121 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551251511E47C40C0059E121 /* CardViewController.swift */; };
+		551251551E47D0E00059E121 /* TransactionRealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551251541E47D0E00059E121 /* TransactionRealmObject.swift */; };
+		557543441E5129C80034E53B /* ApiaryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557543431E5129C80034E53B /* ApiaryAPI.swift */; };
+		557543471E512AC40034E53B /* TransactionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557543461E512AC40034E53B /* TransactionEntity.swift */; };
 		559ED8961E37D42800709CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559ED8951E37D42800709CA9 /* AppDelegate.swift */; };
 		559ED8B11E37D55400709CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559ED8B01E37D55400709CA9 /* Assets.xcassets */; };
 		559ED8B71E37D57F00709CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559ED8B51E37D57F00709CA9 /* LaunchScreen.storyboard */; };
@@ -30,6 +35,11 @@
 		19A0524714316F926ABD9C21 /* Pods-desafio-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-desafio-mobile/Pods-desafio-mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		551251491E47B3F10059E121 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		5512514C1E47B4A60059E121 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		5512514E1E47C0560059E121 /* ProductRealmObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductRealmObject.swift; sourceTree = "<group>"; };
+		551251511E47C40C0059E121 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		551251541E47D0E00059E121 /* TransactionRealmObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRealmObject.swift; sourceTree = "<group>"; };
+		557543431E5129C80034E53B /* ApiaryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiaryAPI.swift; sourceTree = "<group>"; };
+		557543461E512AC40034E53B /* TransactionEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionEntity.swift; sourceTree = "<group>"; };
 		559ED8921E37D42800709CA9 /* desafio-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		559ED8951E37D42800709CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559ED8B01E37D55400709CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +89,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		551251501E47C3F20059E121 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				551251511E47C40C0059E121 /* CardViewController.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		551251531E47D0C60059E121 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				551251541E47D0E00059E121 /* TransactionRealmObject.swift */,
+				557543461E512AC40034E53B /* TransactionEntity.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
 		559ED8891E37D42800709CA9 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +142,7 @@
 		559ED8A71E37D48500709CA9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				551251501E47C3F20059E121 /* Card */,
 				551251481E47B3DA0059E121 /* Cart */,
 				559ED8CA1E38011D00709CA9 /* Products */,
 			);
@@ -142,6 +170,7 @@
 		559ED8AA1E37D4A200709CA9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				551251531E47D0C60059E121 /* Transaction */,
 				559ED8B91E37D92700709CA9 /* Product */,
 			);
 			path = Models;
@@ -153,6 +182,7 @@
 				559ED8C21E37DC2700709CA9 /* Base */,
 				559ED8BF1E37DB0900709CA9 /* ProductService */,
 				559ED8BD1E37D9EC00709CA9 /* DesafioAPI.swift */,
+				557543431E5129C80034E53B /* ApiaryAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -201,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				559ED8BB1E37D93C00709CA9 /* ProductEntity.swift */,
+				5512514E1E47C0560059E121 /* ProductRealmObject.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -403,13 +434,18 @@
 				55FA05331E3FF3C9004C3978 /* UIViewExtension.swift in Sources */,
 				559ED8BE1E37D9EC00709CA9 /* DesafioAPI.swift in Sources */,
 				5512514A1E47B3F10059E121 /* CartViewController.swift in Sources */,
+				551251551E47D0E00059E121 /* TransactionRealmObject.swift in Sources */,
 				559ED8CF1E38016700709CA9 /* ProductCollectionViewCell.swift in Sources */,
 				559ED8C41E37DC3E00709CA9 /* Result.swift in Sources */,
+				557543441E5129C80034E53B /* ApiaryAPI.swift in Sources */,
 				55FA052E1E3FEA58004C3978 /* ControllersProtocol.swift in Sources */,
+				551251521E47C40C0059E121 /* CardViewController.swift in Sources */,
 				559ED8C11E37DB2100709CA9 /* ProductService.swift in Sources */,
 				5512514D1E47B4A60059E121 /* CartTableViewCell.swift in Sources */,
 				559ED8BC1E37D93C00709CA9 /* ProductEntity.swift in Sources */,
 				559ED8961E37D42800709CA9 /* AppDelegate.swift in Sources */,
+				557543471E512AC40034E53B /* TransactionEntity.swift in Sources */,
+				5512514F1E47C0560059E121 /* ProductRealmObject.swift in Sources */,
 				559ED8D21E3801CF00709CA9 /* CellProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
